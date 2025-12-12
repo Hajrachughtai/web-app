@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Meal + Exercise pairing Hub </title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+      <h1>💪 Healthy Meal + Exercise Pairing Hub ✨</h1>
+      <p>Discover healthy meals and exercises based on your goals</p>
+    </header>
+
+    <!-- Goal input -->
+    <section class="card input-card">
+      <h2>🎯 Choose Your Goal</h2>
+      <input type="text" id="goalInput" placeholder="Enter your health goal (e.g., Lose Weight)">
+      <button id="exploreBtn">Generate Suggestions ✨</button>
+    </section>
+
+    <!-- Results section -->
+    <section id="results">
+      <h2>✨ Your Suggestions ✨</h2>
+
+      <!-- Meals -->
+      <div>
+        <h3>🎨 Meals</h3>
+        <div id="mealContainer" class="card-container"></div>
+      </div>
+
+      <!-- Exercises -->
+      <div>
+        <h3>🏋️ Exercises</h3>
+        <div id="exerciseContainer" class="card-container"></div>
+      </div>
+    </section>
+
+    <!-- Health tips -->
+    <section class="card tips-card">
+      <h3>💡 Health Tips</h3>
+      <ul>
+        <li>Drink plenty of water before and after workouts.</li>
+        <li>Pair your meals with balanced protein intake.</li>
+        <li>Rest days are important for muscle recovery.</li>
+        <li>Include a mix of cardio and strength exercises weekly.</li>
+      </ul>
+    </section>
+
+    <!-- Saved goals -->
+    <section class="card history-card">
+      <h3>❤️ Saved Plans</h3>
+      <p id="lastGoal">No saved goal yet.</p>
+      <button id="saveBtn">Save to Favorites ⭐</button>
+    </section>
+
+    <footer>
+      <p>👩‍💻 Developed by [Hajra Chughtai]</p>
+      <small>"This fictitious website was created as an academic exercise."</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+

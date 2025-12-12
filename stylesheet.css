@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  font-size: 2rem;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+header p {
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.input-card input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #6a0dad, #8e2de2);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #8e2de2, #6a0dad);
+  transform: scale(1.05);
+}
+
+/* Cards container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Individual meal/exercise cards */
+.card-container .card {
+  width: 180px;
+  padding: 10px;
+  background: linear-gradient(135deg, #6a0dad, #8e2de2);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-container .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.6);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
